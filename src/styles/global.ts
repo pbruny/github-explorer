@@ -27,5 +27,25 @@ export default createGlobalStyle`
     max-width: 960px;
     margin: 0 auto;
 
+    @media(max-width: 1000px) {
+      max-width: 768px;
+      margin: 0 auto;
+    }
+
+    @media(max-width: 800px) {
+      max-width: 540px;
+      margin: 0 auto;
+    }
+
+    @media(max-width: 580px) {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    @media(max-width: 360px) {
+      max-width: 340px;
+      margin: 0 auto;
+    }
+
   }
 `
