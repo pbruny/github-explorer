@@ -1,8 +1,9 @@
 import React from 'react'
+import { Title } from './style'
 
 const Repository: React.FC = () => {
   return (
-    <h1>Hallo Caralho Repository</h1>
+    <Title>Hallo Caralho Repository</Title>
   )
 }
 
