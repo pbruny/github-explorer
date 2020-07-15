@@ -81,6 +81,10 @@ export const Repositories = styled.div`
     align-items: center;
     transition: transform 0.5s;
 
+    &:last-child {
+      margin-bottom: 16px;
+    }
+
     & + a {
       margin-top: 16px;
     }
